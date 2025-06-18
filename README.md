@@ -1,7 +1,8 @@
 **Customer Flight Booking Prediction**
 
 This project applies Exploratory Data Analysis (EDA), feature engineering, and machine learning to predict whether a customer completes a flight booking based on their preferences and booking data.
-📁 Dataset
+
+**Dataset**
 
 The dataset (customer_booking.csv) contains customer-level booking information, such as:
 
@@ -19,29 +20,29 @@ The dataset (customer_booking.csv) contains customer-level booking information, 
 
     EDA and Data Cleaning
 
-        Loaded and inspected the data
+    Load and inspect the data
 
-        Visualized target distribution
+    Visualize target distribution
 
-        Checked for missing values and data types
+    Check for missing values and data types
 
-    Feature Engineering
+**Feature Engineering**
 
-        Created new features:
+Created new features:
 
-            is_weekend_flight: Flag for weekend travel
+    is_weekend_flight: Flag for weekend travel
 
-            has_preferences: Flag if the user requested any add-ons
+    has_preferences: Flag if the user requested any add-ons
 
-        One-hot encoded categorical variables
+    One-hot encoded categorical variables
 
-    Modeling
+**Modeling**
 
-        Model used: RandomForestClassifier
+    Model used: RandomForestClassifier
 
-        Data split: 80% training / 20% testing
+    Data split: 80% training / 20% testing
 
-        Evaluated using:
+    Evaluated using:
 
             Accuracy
 
@@ -55,7 +56,7 @@ The dataset (customer_booking.csv) contains customer-level booking information, 
 
             5-Fold Cross-Validation
 
-    Feature Importance
+**Feature Importance**
 
         Visualized top features influencing booking completion
 
@@ -74,7 +75,8 @@ The model was evaluated using multiple metrics and cross-validation:
 **Top Feature Importances**
 
 After fitting the model, the top 10 features contributing to the booking prediction were visualized using a horizontal bar plot.
-🛠️ Tech Stack
+
+**Tech Stack**
 
     Python (Pandas, NumPy, Seaborn, Matplotlib)
 
