@@ -58,7 +58,7 @@ Created new features:
 
 **Feature Importance**
 
-        Visualized top features influencing booking completion
+        Visualized the top features influencing booking completion.
 
 **Evaluation Metrics**
 
@@ -84,15 +84,15 @@ After fitting the model, the top 10 features contributing to the booking predict
 
 **How to Run**
 
-Clone the repository:
+Clone the repository.
 
 git clone https://github.com/your-username/customer-booking-prediction.git
 cd customer-booking-prediction
 
-Install dependencies:
+Install dependencies.
 
 pip install -r requirements.txt
 
 Place the customer_booking.csv file in the project directory.
 
-Run the script:
+Run the script.
